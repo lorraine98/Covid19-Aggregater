@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contents {
+  padding: 1rem;
+}
